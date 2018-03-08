@@ -41,9 +41,7 @@
                             <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="donate.html">Donate<span class="sr-only">(current)</span></a>
-                        </li>
+                       
 
                         <li class="nav-item">
                             <a class="nav-link" href="signup.html">Sign Up/In<span class="sr-only">(current)</span></a>
@@ -62,14 +60,36 @@
             </div>
         </nav>
         <!--/.Navbar-->
+        <div class="row">
+  <div class="col-sm-4"><h2></h2></div>
+  <div class="col-sm-8"><h2>Submit a report</h2></div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      
+    </div>
+    <div class="col-6">
+     <p>We take our reports very seriously, so please only submit a report if you are absolutely certain that action needs to be taken.</p>
+    </div>
+    <div class="col">
+    
+    </div>
+  </div>
+</div>
+
+        
     
 <!-- Columns are always 50% wide, on mobile and desktop -->
 <div class="row">
-  <div class="col-6"> <div class="card card-body cardcolor" id="text1">
+  <div class="col-6"> 
+    <div class="card card-body cardcolor" id="text1">
     <h4 class="card-title">Submit a User/Post Report</h4>
   <div class="dropdown show">
   <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Report Type  </a>
+    Report Category  </a>
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <a class="dropdown-item" href="#">Innapropriate Username</a>
@@ -82,6 +102,7 @@
 
     <!-- Material input text -->
     <div class="md-form">
+
         <i class="fa fa-user prefix grey-text"></i>
         <input type="text" id="materialFormContactNameEx" class="form-control">
         <label for="materialFormContactNameEx">Name of user you're reporting</label>
@@ -92,6 +113,13 @@
         <i class="fa fa-envelope prefix grey-text"></i>
         <input type="email" id="materialFormContactEmailEx" class="form-control">
         <label for="materialFormContactEmailEx">Your email (for report status updates)</label>
+    </div>
+
+    <!-- Material input text -->
+    <div class="md-form">
+        <i class="fa fa-question prefix grey-text"></i>
+        <input type="text" id="materialFormContactNameEx" class="form-control">
+        <label for="materialFormContactNameEx">If you selected "other," describe the category</label>
     </div>
     
     <!-- Material input subject -->
@@ -108,13 +136,65 @@
         <label for="materialFormContactMessageEx">Reason For Report</label>
     </div>
 
+
     <div class="text-center mt-4">
         <button class="btn btn-outline-secondary" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
     </div>
 </form></a>
-<!-- Material form contact --></div>
-  <div class="col-6">.col-6</div>
+<!-- Material form contact -->
 </div>
+</div>
+<!-- second form starts -->
+  <div class="col-6"><div class="card card-body cardcolor" id="text1">
+    <h4 class="card-title">Submit a Bug Report</h4>
+  <div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Report Category  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Error Keeps Appearing</a>
+    <a class="dropdown-item" href="#">Unable to Comment/Like a post</a>
+    <a class="dropdown-item" href="#">Unable to Create a User</a>
+    <a class="dropdown-item" href="#">Account Verification/Password Reset Email Not Showing Up</a>
+    <a class="dropdown-item" href="#">Other</a>
+  </div>
+</div>
+
+
+    <!-- Material input text -->
+    <div class="md-form">
+        <i class="fa fa-user prefix grey-text"></i>
+        <input type="text" id="materialFormContactNameEx" class="form-control">
+        <label for="materialFormContactNameEx">Short Description of bug (10 words or less)</label>
+    </div>
+
+    <!-- Material input email -->
+    <div class="md-form">
+        <i class="fa fa-envelope prefix grey-text"></i>
+        <input type="email" id="materialFormContactEmailEx" class="form-control">
+        <label for="materialFormContactEmailEx">Your email (for report status updates)</label>
+    </div>
+    
+    <!-- Material input subject -->
+    <div class="md-form">
+        <i class="fa fa-tag prefix grey-text"></i>
+        <input type="text" id="materialFormContactSubjectEx" class="form-control">
+        <label for="materialFormContactSubjectEx">Link to Image of Bug</label>
+    </div>
+    
+    <!-- Material textarea message -->
+    <div class="md-form">
+        <i class="fa fa-pencil prefix grey-text"></i>
+        <textarea type="text" id="materialFormContactMessageEx" class="form-control md-textarea" rows="3"></textarea>
+        <label for="materialFormContactMessageEx">Description of Bug</label>
+    </div>
+
+    <div class="text-center mt-4">
+        <button class="btn btn-outline-secondary" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
+    </div>
+</form></a></div>
+</div>
+
        
 
 
